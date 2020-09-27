@@ -1,4 +1,4 @@
-//Carlos Muñoz Iglesias Tarea 1
+//Carlos Muñoz Iglesias - Tarea1 Introduccion a Javascript
 
 var entero = 1357;
 var decimal = 1.357;
