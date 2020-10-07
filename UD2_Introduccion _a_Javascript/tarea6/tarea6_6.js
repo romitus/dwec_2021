@@ -6,7 +6,7 @@ function nextDay(week){
         case week="Martes":
             console.log("mañana es Miércoles");
             break;
-        case week="Miércoles":
+        case week="Miercoles":
             console.log('mañana es Jueves');
             break;
         case week="Jueves":
