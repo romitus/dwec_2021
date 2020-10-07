@@ -22,7 +22,5 @@ function Multiply(nota){
         console.log((Number(nota)-Number(j)));
         j++;
     } while (j<11);
-    }
-
-    
+    }    
 }
