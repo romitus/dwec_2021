@@ -1,7 +1,7 @@
 function Multiply(nota){
     num=Number(nota);
     if(num<2 || num>10){
-        console.log("Ese número es incorrecto");
+        console.log("Ese numero es incorrecto");
         
     }else{
     console.log("Multiplicar");
