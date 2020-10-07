@@ -1,3 +1,4 @@
+//Carlos Muñoz Iglesias - Tarea6_2 Introduccion a Javascript
 var texto="mensaje";
 
 var aux="";
