@@ -1,8 +1,8 @@
 # U3T3 - Number
 
 Crea un programa que pida al usuario un número entero por pantalla y muestre:
-Su valor exponencial.
 
+- Su valor exponencial.
 - El número con 4 decimales.
 - El número en binario.
 - El número en octal.
