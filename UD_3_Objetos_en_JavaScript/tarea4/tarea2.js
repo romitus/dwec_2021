@@ -45,3 +45,9 @@ for (let i = 0; i < password.length; i++) {
 if (specialSymbolExist == false) {
     alert("Debe tener uno de los siguientes valores: -, _, @, #, $, % o &.")
 }
+
+if(specialSymbolExist == true && upperCase == true && lowerCase == true && numberExist == true){
+    alert("La contraseña es segura.");
+}else{
+    alert("La contraseña no es segura.");
+}
