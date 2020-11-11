@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U4T1 - Formularios 1</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Nombre del disco:</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <input type="radio" id="singer" name="singer" value="Cantante">
+        <label for="singer">Cantante</label><br>
+        <input type="radio" id="group" name="group" value="Grupo de musica">
+        <label for="group">Grupo de musica</label><br>
+        <label for="publishDate">Fecha de publicación:</label>
+        <input type="date" id="pusblishDate" name="publishDate"><br>
+        <label for="gender">Choose a car:</label>
+        <select id="gender" name="gender">
+            <option value="rock">Rock</option>
+            <option value="pop">POP</option>
+            <option value="punk">Punk</option>
+            <option value="indie">Indie</option><br>
+        </select>
+        <label for="shelf">Estanteria (0 - 45):</label>
+        <input type="number" id="shelf" name="shelf"
+       min="0" max="45"><br>
+       <label for="fname">Si:</label>
+       <input type="radio" id="affirmative" name="affirmative" value="true">
+       <label for="lname">No:</label>
+       <input type="radio" id="false" name="false" checked="checked" value="false">
+      </form> 
+</body>
+</html>
