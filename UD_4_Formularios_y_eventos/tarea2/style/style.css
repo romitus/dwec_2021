@@ -1,0 +1,11 @@
+div {
+    width: 70%;
+    background-color: red;
+}
+
+img {
+    margin-left: 6px;
+    margin-top: 5px;
+    width: 70%;
+    visibility: hidden;
+}
