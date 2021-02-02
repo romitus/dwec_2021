@@ -8,9 +8,11 @@ document.getElementById('boton').addEventListener('click', () => {
             if(xhr.responseText === "SI") {
                 document.getElementById('resultado').innerHTML = "Existe!";
                 document.getElementById('resultado').style.backgroundColor = "green";
+                document.getElementById('resultado').style.color = "white";
             } else {
                 document.getElementById('resultado').innerHTML = "No Existe!";
                 document.getElementById('resultado').style.backgroundColor = "red";
+                document.getElementById('resultado').style.color = "white";
             }
         }
     }
