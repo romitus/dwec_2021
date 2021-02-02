@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+    <SERIE>
+        <TITLE>The Expanse</TITLE>
+        <CHANNEL>Prime Video</CHANNEL>
+        <DIRECTOR>Robert Lieberman</DIRECTOR>
+        <YEAR>2015</YEAR>
+        <FINALIZED>NO</FINALIZED>
+    </SERIE>
+    <SERIE>
+        <TITLE>Star Trek: Discovery</TITLE>
+        <CHANNEL>Netflix</CHANNEL>
+        <DIRECTOR>Alex Kurtzman</DIRECTOR>
+        <YEAR>2017</YEAR>
+        <FINALIZED>NO</FINALIZED>
+    </SERIE>
+    <SERIE>
+        <TITLE>Hoops</TITLE>
+        <CHANNEL>Netflix</CHANNEL>
+        <DIRECTOR>Ben Hoffman</DIRECTOR>
+        <YEAR>2020</YEAR>
+        <FINALIZED>SI</FINALIZED>
+    </SERIE>
+</CATALOG>

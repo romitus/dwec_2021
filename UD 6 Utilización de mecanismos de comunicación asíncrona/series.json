@@ -1,0 +1,25 @@
+{
+    "series": [
+        {
+            "title": "The Expanse",
+            "channel": "Prime Video",
+            "director": "Robert Lieberman",
+            "year": 2015,
+            "finalized": "NO"
+        },
+        {
+            "title": "Star Trek: Discovery",
+            "channel": "Netflix",
+            "director": "Alex Kurtzman",
+            "year": 2017,
+            "finalized": "NO" 
+        },
+        {
+            "title": ">Hoops",
+            "channel": "Netflix",
+            "director": "Ben Hoffman",
+            "year": 2020,
+            "finalized": "SI"
+        }
+    ]
+}
