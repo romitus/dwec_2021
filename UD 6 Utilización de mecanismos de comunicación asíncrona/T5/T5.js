@@ -20,8 +20,10 @@ document.getElementById('send1').addEventListener('click', () => {
             console.log(xhr.responseText);
             if (xhr.responseText == '"ok"') {
                 div.setAttribute("class", "ok");
+                div.style.color = "green";
             } else {
                 div.setAttribute("class", "error");
+                div.style.color = "red";
             }
             div.innerHTML = xhr.responseText;
         }
