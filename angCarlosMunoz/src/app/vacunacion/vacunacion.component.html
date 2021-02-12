@@ -1,0 +1,65 @@
+<H1>Tabla de vacunación</H1>
+
+<mat-form-field>
+    <mat-label>CC.AA</mat-label>
+    <mat-select>
+      <mat-option value="one">Andalucía</mat-option>
+      <mat-option value="two">Aragon</mat-option>
+      <mat-option value="two">Asturias</mat-option>
+      <mat-option value="two">Baleares</mat-option>
+      <mat-option value="two">Canarias</mat-option>
+      <mat-option value="two">Cantabria</mat-option>
+      <mat-option value="two">Castilla La Mancha</mat-option>
+      <mat-option value="two">Castilla y León</mat-option>
+      <mat-option value="two">Cataluña</mat-option>
+      <mat-option value="two">Valencia</mat-option>
+      <mat-option value="two">Extremadura</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+<form id="form1" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>D.Entregadas</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+<form id="form2" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>D.Admin</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+<form id="form3" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>D.Completa</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+<form id="form4" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>P.Entregadas</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+<form id="form5" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>P.Admin</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+<form id="form6" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>P.Completa</mat-label>
+      <input type="number" matInput placeholder="" value="">
+    </mat-form-field>
+
+    <button id="button3" mat-raised-button color="accent">Modificar Datos</button>
+    
+    <hr>
+    <p>Resultados:</p>
+    <div id="msg"></div>
+    <hr>
+
+<br><br>
+<button mat-raised-button color="primary">Cargar Datos Vacunacion (XMLHttpRequest)</button>
+<button id="button2" mat-raised-button color="primary">Cargar Datos Vacunacion (Fetch)</button>
