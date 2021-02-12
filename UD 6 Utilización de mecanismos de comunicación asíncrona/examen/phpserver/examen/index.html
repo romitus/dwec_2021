@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <script src="examen.js" defer></script>
+    <style>
+        table,t,td,th{
+            border:1px solid black;
+            align-text: center;
+        }
+    </style>
+</head>
+<body>
+    <label for="">CC.AA:</label>
+    <select id="ccaa1">
+        <option value="andalucia">Andalucia</option>
+    </select>
+    <label for="">D.Entregadas:</label>
+    <input id="campo1" type="number">
+    <label for="">D.Admin:</label>
+    <input id="campo2" type="number">
+    <label for="">D.Completa:</label>
+    <input id="campo3" type="number">
+    <label for="">P.Entregadas:</label>
+    <input id="campo4" type="number">
+    <label for="">P.Admin:</label>
+    <input id="campo5" type="number">
+    <label for="">P.Completa:</label>
+    <input id="campo6" type="number">
+    <input type="button" id="modifyData" value="Modificar Datos">
+    <hr>
+        <p>Resultados</p>
+        <div id="result"></div>
+    <hr>
+    <h1>Tabla de vacunacion</h1>
+    <input type="button" id="loadXmlRe" value="Cargar Datos Vacunacion (XMLHttpRequest)">
+    <input type="button" id="loadFetch" value="Cargar Datos Vacunacion (Fetch)"><br><br>
+    <div id="tabla"></div>
+</body>
+</html>

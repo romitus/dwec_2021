@@ -39,7 +39,7 @@ function mostrarFetch() {
             }
         }
           armas+="</table>";
-          document.getElementById("mostrar").innerHTML=armas;
+          document.getElementById("tabla").innerHTML=vacunas;
           
       })
       .catch((err) => console.log(err));
