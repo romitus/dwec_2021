@@ -1,0 +1,4 @@
+<app-filter *ngIf="allFilters.familia.length != 0" [allFiltersProp]='allFilters' (handleClick)='dataFilter($event)'>
+</app-filter>
+<p *ngIf="loading" class="loadingMsg">Cargando Información...</p>
+<app-generic-table *ngIf="!loading && showTable" [data]='arrayCiclos' [filters]='filterValues'></app-generic-table>
